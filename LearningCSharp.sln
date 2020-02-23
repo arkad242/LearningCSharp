@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearningCSharp", "LearningCSharp\LearningCSharp.csproj", "{0C9D2A0E-3887-4989-B82F-463A246EB854}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearningCSharp_Block3", "LearningCSharp\LearningCSharp_Block3.csproj", "{0C9D2A0E-3887-4989-B82F-463A246EB854}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Block_3", "Block_3", "{63147BC3-031E-40CE-94B8-FA61FF4797AC}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Block_4", "Block_4", "{8EA92D34-6733-4A53-8136-E4D2A7FD96A9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UdemyCourse", "UdemyCourse", "{63147BC3-031E-40CE-94B8-FA61FF4797AC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningCSharp_Block4", "LearningCSharp_Block4\LearningCSharp_Block4.csproj", "{5F57ABDE-4E48-4F3C-B0A7-2854F38CADA7}"
 EndProject
@@ -31,7 +29,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0C9D2A0E-3887-4989-B82F-463A246EB854} = {63147BC3-031E-40CE-94B8-FA61FF4797AC}
-		{5F57ABDE-4E48-4F3C-B0A7-2854F38CADA7} = {8EA92D34-6733-4A53-8136-E4D2A7FD96A9}
+		{5F57ABDE-4E48-4F3C-B0A7-2854F38CADA7} = {63147BC3-031E-40CE-94B8-FA61FF4797AC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5025F869-1DD4-4F0E-AB46-0C3ADE510561}

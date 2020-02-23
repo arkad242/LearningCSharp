@@ -3,8 +3,8 @@
 
 
 
-namespace LearningCSharp
-{
+namespace LearningCSharp_Block3
+    {
     class Program
     {
         static void Main(string[] args)
