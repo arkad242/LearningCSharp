@@ -1,8 +1,6 @@
 ﻿using System;
 
-/*Запросить у пользователя не более 10 целых положительных чисел.Пользователь может прекратить приём чисел, введя 0.
-    После прекращения приёма целых чисел(это происходит в случае если было введено 10 чисел, либо пользователь ввёл 0, чтобы не вводить все 10) 
-    подсчитать среднее значение целых положительных чисел кратных трём и вывести на консоль.*/
+
 
 
 namespace LearningCSharp
@@ -13,7 +11,17 @@ namespace LearningCSharp
         {
 
             
-            int[] numbers = new int [10];
+
+
+
+        }
+
+        public void Homework2()
+        {
+
+
+
+            int[] numbers = new int[10];
 
             int inputCount = 0;
             while (inputCount < 10)
@@ -42,9 +50,68 @@ namespace LearningCSharp
             double average = (double)sum / count;
             Console.WriteLine(average);
 
-            Console.WriteLine();
+
+        }
+
+        public void Homework3()
+        {
+            int n = int.Parse(Console.ReadLine());
+
+            long factorial = 1;
 
 
+
+            for (int i = 1; i <= n; i++)
+            {
+
+                factorial *= i;
+
+            }
+
+
+
+            Console.WriteLine(factorial);
+
+        }
+
+        public void Homework4()
+        {
+            /*Предположим, что логин\пароль для входа в систему: johnsilver\qwerty.
+            Запросить у пользователя логин и пароль. Дать пользователю только три попытки для ввода корректной пары логин\пароль.
+            Если пользователь произвёл корректный ввод, вывести на консоль: "Enter the System" и прекратить запрос логина\пароля.Если пользователь ошибся трижды -вывести 
+            "The number of available tries have been exceeded" и прекратить запрос пары логин\пароль.
+*/
+            string login = Console.ReadLine();
+
+            int wrong = 0;
+
+            while (wrong != 3)
+            {
+
+
+                string pass = Console.ReadLine();
+
+                if (pass != "qwerty")
+                {
+                    wrong++;
+
+                    if (wrong == 3)
+                    {
+                        Console.WriteLine("The number of available tries have been exceeded");
+                        break;
+                    }
+
+                }
+                else
+                {
+                    Console.WriteLine("Enter the system");
+                    break;
+                }
+
+
+
+
+            }
         }
     }
 }
