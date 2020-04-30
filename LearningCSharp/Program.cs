@@ -1,7 +1,5 @@
 ﻿using System;
-
-
-
+using LearningCSharp_Block5;
 
 namespace LearningCSharp_Block3
     {
@@ -10,9 +8,10 @@ namespace LearningCSharp_Block3
         static void Main(string[] args)
         {
 
-            
+            Character c = new Character();
+            c.Hit(12);
 
-
+            Console.WriteLine(c.Health);
 
         }
 

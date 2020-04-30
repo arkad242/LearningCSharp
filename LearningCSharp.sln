@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearningCSharp_Block3", "Le
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UdemyCourse", "UdemyCourse", "{63147BC3-031E-40CE-94B8-FA61FF4797AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningCSharp_Block4", "LearningCSharp_Block4\LearningCSharp_Block4.csproj", "{5F57ABDE-4E48-4F3C-B0A7-2854F38CADA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearningCSharp_Block4", "LearningCSharp_Block4\LearningCSharp_Block4.csproj", "{5F57ABDE-4E48-4F3C-B0A7-2854F38CADA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningCSharp_Block5", "LearningCSharp_Block5\LearningCSharp_Block5.csproj", "{D40A6284-81C9-46B6-8193-54628FF5AF0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{5F57ABDE-4E48-4F3C-B0A7-2854F38CADA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F57ABDE-4E48-4F3C-B0A7-2854F38CADA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F57ABDE-4E48-4F3C-B0A7-2854F38CADA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D40A6284-81C9-46B6-8193-54628FF5AF0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D40A6284-81C9-46B6-8193-54628FF5AF0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D40A6284-81C9-46B6-8193-54628FF5AF0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D40A6284-81C9-46B6-8193-54628FF5AF0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{0C9D2A0E-3887-4989-B82F-463A246EB854} = {63147BC3-031E-40CE-94B8-FA61FF4797AC}
 		{5F57ABDE-4E48-4F3C-B0A7-2854F38CADA7} = {63147BC3-031E-40CE-94B8-FA61FF4797AC}
+		{D40A6284-81C9-46B6-8193-54628FF5AF0D} = {63147BC3-031E-40CE-94B8-FA61FF4797AC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5025F869-1DD4-4F0E-AB46-0C3ADE510561}

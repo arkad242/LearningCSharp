@@ -5,8 +5,4 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\LearningCSharp_Block5\LearningCSharp_Block5.csproj" />
-  </ItemGroup>
-
 </Project>
